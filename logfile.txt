@@ -108,3 +108,481 @@ nothing added to commit but untracked files present (use "git add" to track)
 temoa[0;39m@VCooprOnLubuntu , J: 0, H: 156, C: 13
 ~/MyProject
 [0;39m$(B[m git add logfule[K[K[Kile.txt
+]12;red]0;8:15 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 157, C: 14
+~/MyProject
+[0;39m$(B[m git stt[Katus -s
+AM logfile.txt
+]12;red]0;8:15 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 158, C: 15
+~/MyProject
+[0;39m$(B[m git a[K[K[K[K[Kgit commit -m 'myc[K changes'
+[master 783ede5] my changes
+ 1 file changed, 110 insertions(+)
+ create mode 100644 logfile.txt
+]12;red]0;8:16 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 159, C: 16
+~/MyProject
+[0;39m$(B[m git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   logfile.txt
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+]12;red]0;8:16 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 160, C: 17
+~/MyProject
+[0;39m$(B[m git reo[Kmote add origin https://github.com/cec[Koconne/myproject.git
+]12;red]0;8:18 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 161, C: 18
+~/MyProject
+[0;39m$(B[m git remote -v
+origin	https://github.com/ceoconne/myproject.git (fetch)
+origin	https://github.com/ceoconne/myproject.git (push)
+]12;red]0;8:19 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 162, C: 19
+~/MyProject
+[0;39m$(B[m ti[K[Kgit status -s
+ M logfile.txt
+]12;red]0;8:25 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 163, C: 20
+~/MyProject
+[0;39m$(B[m  git diff
+[?1h=diff --git a/logfile.txt b/logfile.txt[m
+index b0d3b5c..4abc55d 100644[m
+--- a/logfile.txt[m
++++ b/logfile.txt[m
+@@ -107,4 +107,47 @@ nothing added to commit but untracked files present[m
+ 12;red[7m^G[27m0;8:15 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
+ temoa[0;39m@VCooprOnLubuntu , J: 0, H: 156, C: 13[m
+ ~/MyProject[m
+-[0;39m$[m git add logfile.txt[m
+\ No newline at end of file[m
++[0;39m$[m git add logfile.txt[m
++12;red[7m^G[27m0;8:15 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 157, C: 14[m
++~/MyProject[m
++[0;39m$[m git status -s[m
++AM logfile.txt[m
++12;red[7m^G[27m0;8:15 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 158, C: 15[m
++~/MyProject[m
++[0;39m$[m [7m^G^G[27mgit commit -m 'my changes'[m
++[master 783ede5] my changes[m
++ 1 file changed, 110 insertions(+)[m
++ create mode 100644 logfile.txt[m
++12;red[7m^G[27m0;8:16 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 159, C: 16[m
++~/MyProject[m
++[0;39m$[m git status[m
++# On branch master[m
++# Changes not staged for commit:[m
++#   (use "git add <file>..." to update what will be committed)[m
++#   (use "git checkout -- <file>..." to discard changes in working dire[m
++#[m
++#      modified:   logfile.txt[m
++#[m
+:[K[K [KESCESC[KOO[KBB[K+no changes added to commit (use "git add" and/or "git commit -a")[m
+:[K[K [KESCESC[KOO[KBB[K+12;red[7m^G[27m0;8:16 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
+:[K[K [KESCESC[KOO[KBB[K+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 160, C: 17[m
+:[K[K [KESCESC[KOO[KBB[K+~/MyProject[m
+:[K[K [KESCESC[KOO[KBB[K+[0;39m$[m git remote add origin https://github.com/ceoconne/myproject.git[m
+:[K[K [KESCESC[KOO[KBB[K+12;red[7m^G[27m0;8:18 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
+:[K[K [KESCESC[KOO[KBB[K+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 161, C: 18[m
+:[K[K [KESCESC[KOO[KBB[K+~/MyProject[m
+:[K[K [KESCESC[KOO[KBB[K+[0;39m$[m git remote -v[m
+:[K[K [KESCESC[KOO[KBB[K+origin https://github.com/ceoconne/myproject.git (fetch)[m
+:[K[K [KESCESC[KOO[KBB[K+origin https://github.com/ceoconne/myproject.git (push)[m
+:[K[K [KESCESC[KOO[KBB[K+12;red[7m^G[27m0;8:19 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
+:[K[K [KESCESC[KOO[KBB[K+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 162, C: 19[m
+:[K[K [KESCESC[KOO[KBB[K+~/MyProject[m
+:[K[K [KESCESC[KOO[KBB[K+[0;39m$[m [7m^G[27mgit status -s[m
+:[K[K [KESCESC[KOO[KBB[K+ M logfile.txt[m
+:[K[K [KESCESC[KOO[KBB[K+12;red[7m^G[27m0;8:25 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
+:[K[K [KESCESC[KOO[KBB[K+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 163, C: 20[m
+:[K[K [KESCESC[KOO[KBB[K+~/MyProject[m
+:[K[K [KESCESC[KOO[KBB[K+[0;39m$[m  git diff[m
+:[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+u:MyProject[7m^G[27m[m
+[0;39m9, C: 16[m
+[m
+[0;39m[m[m
+[m
+[m
+ate what will be committed)[m
+" to discard changes in working directory)[m
+[m
+[m
+[m
+t add" and/or "git commit -a")[m
+u:MyProject[7m^G[27m[m
+[0;39m0, C: 17[m
+[m
+[0;39m[mhub.com/ceoconne/myproject.git[m
+u:MyProject[7m^G[27m[m
+[0;39m1, C: 18[m
+[m
+[0;39m[m[m
+myproject.git (fetch)[m
+myproject.git (push)[m
+u:MyProject[7m^G[27m[m
+[0;39m2, C: 19[m
+[m
+[0;39m[m[m
+[m
+u:MyProject[7m^G[27m[m
+[0;39m3, C: 20[m
+[m
+[0;39m[m[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[m
+[m
+ctory)[m
+[m
+[m
+[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[m
+[m
+ctory)[m
+[m
+[m
+[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[m
+[m
+[0;39m[m
+[m
+[0;39m[m[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+u:MyProject[7m^G[27m[m
+[0;39m9, C: 16[m
+[m
+[0;39m[m[m
+[m
+[m
+ate what will be committed)[m
+" to discard changes in working directory)[m
+[m
+[m
+[m
+t add" and/or "git commit -a")[m
+u:MyProject[7m^G[27m[m
+[0;39m0, C: 17[m
+[m
+[0;39m[mhub.com/ceoconne/myproject.git[m
+u:MyProject[7m^G[27m[m
+[0;39m1, C: 18[m
+[m
+[0;39m[m[m
+myproject.git (fetch)[m
+myproject.git (push)[m
+u:MyProject[7m^G[27m[m
+[0;39m2, C: 19[m
+[m
+[0;39m[m[m
+[m
+u:MyProject[7m^G[27m[m
+[0;39m3, C: 20[m
+[m
+[0;39m[m[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H+[master 783ede5] my changes[m
++ 1 file changed, 110 insertions(+)[m
++ create mode 100644 logfile.txt[m
++12;red[7m^G[27m0;8:16 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 159, C: 16[m
++~/MyProject[m
++[0;39m$[m git status[m
++# On branch master[m
++# Changes not staged for commit:[m
++#   (use "git add <file>..." to update what will be committed)[m
++#   (use "git checkout -- <file>..." to discard changes in working dire[m
++#[m
++#      modified:   logfile.txt[m
++#[m
++no changes added to commit (use "git add" and/or "git commit -a")[m
++12;red[7m^G[27m0;8:16 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 160, C: 17[m
++~/MyProject[m
++[0;39m$[m git remote add origin https://github.com/ceoconne/myproject.git[m
++12;red[7m^G[27m0;8:18 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 161, C: 18[m
++~/MyProject[m
++[0;39m$[m git remote -v[m
++origin https://github.com/ceoconne/myproject.git (fetch)[m
++origin https://github.com/ceoconne/myproject.git (push)[m
++12;red[7m^G[27m0;8:19 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 162, C: 19[m
++~/MyProject[m
++[0;39m$[m [7m^G[27mgit status -s[m
++ M logfile.txt[m
++12;red[7m^G[27m0;8:25 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 163, C: 20[m
++~/MyProject[m
++[0;39m$[m  git diff[m
+[7m(END)[27m[K[H[2J[H+[master 783ede5] my changes[m
++ 1 file changed, 110 insertions(+)[m
++ create mode 100644 logfile.txt[m
++12;red[7m^G[27m0;8:16 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 159, C: 16[m
++~/MyProject[m
++[0;39m$[m git status[m
++# On branch master[m
++# Changes not staged for commit:[m
++#   (use "git add <file>..." to update what will be committed)[m
++#   (use "git checkout -- <file>..." to discard changes in working directory)[m
++#[m
++#      modified:   logfile.txt[m
++#[m
++no changes added to commit (use "git add" and/or "git commit -a")[m
++12;red[7m^G[27m0;8:16 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 160, C: 17[m
++~/MyProject[m
++[0;39m$[m git remote add origin https://github.com/ceoconne/myproject.git[m
++12;red[7m^G[27m0;8:18 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 161, C: 18[m
++~/MyProject[m
++[0;39m$[m git remote -v[m
++origin https://github.com/ceoconne/myproject.git (fetch)[m
++origin https://github.com/ceoconne/myproject.git (push)[m
++12;red[7m^G[27m0;8:19 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 162, C: 19[m
++~/MyProject[m
++[0;39m$[m [7m^G[27mgit status -s[m
++ M logfile.txt[m
++12;red[7m^G[27m0;8:25 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 163, C: 20[m
++~/MyProject[m
++[0;39m$[m  git diff[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K[[[K11[K[7m(END)[27m[K[K[7m(END)[27m[K[K:[K22[K[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H+[master 783ede5] my changes[m
++ 1 file changed, 110 insertions(+)[m
++ create mode 100644 logfile.txt[m
++12;red[7m^G[27m0;8:16 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 159, C: 16[m
++~/MyProject[m
++[0;39m$[m git status[m
++# On branch master[m
++# Changes not staged for commit:[m
++#   (use "git add <file>..." to update what will be committed)[m
++#   (use "git checkout -- <file>..." to discard changes in working directory)[m
++#[m
++#      modified:   logfile.txt[m
++#[m
++no changes added to commit (use "git add" and/or "git commit -a")[m
++12;red[7m^G[27m0;8:16 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 160, C: 17[m
++~/MyProject[m
++[0;39m$[m git remote add origin https://github.com/ceoconne/myproject.git[m
++12;red[7m^G[27m0;8:18 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 161, C: 18[m
++~/MyProject[m
++[0;39m$[m git remote -v[m
++origin https://github.com/ceoconne/myproject.git (fetch)[m
++origin https://github.com/ceoconne/myproject.git (push)[m
++12;red[7m^G[27m0;8:19 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 162, C: 19[m
++~/MyProject[m
++[0;39m$[m [7m^G[27mgit status -s[m
++ M logfile.txt[m
++12;red[7m^G[27m0;8:25 temoa@VCooprOnLubuntu:MyProject[7m^G[27m[m
++temoa[0;39m@VCooprOnLubuntu , J: 0, H: 163, C: 20[m
++~/MyProject[m
++[0;39m$[m  git diff[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K[?1l>]12;red]0;8:27 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 163, C: 21
+~/MyProject
+[0;39m$(B[m q
+q: command not found
+]12;red]0;8:27 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 164, C: 22
+~/MyProject
+[0;39m$(B[m [K[0;39m$(B[m master
+No command 'master' found, did you mean:
+ Command 'master1' from package 'pvm-examples' (universe)
+ Command 'paster' from package 'python-pastescript' (main)
+master: command not found
+]12;red]0;8:29 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 165, C: 23
+~/MyProject
+[0;39m$(B[m ls
+logfile.txt  Readme
+]12;red]0;8:29 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 165, C: 24
+~/MyProject
+[0;39m$(B[m git push origin Readme
+q 
+^[[A^[[B^[[B            Username for 'https://github.com': Password for 'https://github.com': 
+fatal: Authentication failed
+]12;red]0;8:30 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 166, C: 25
+~/MyProject
+[0;39m$(B[m git push origin Readme[K[K[K[K[K[KMaster
+Username for 'https://github.com': ceoconne
+Password for 'https://ceoconne@github.com': 
+error: The requested URL returned error: 403 Forbidden while accessing https://github.com/ceoconne/myproject.git/info/refs
+fatal: HTTP request failed
+]12;red]0;8:31 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 167, C: 26
+~/MyProject
+[0;39m$(B[m git push origin Master[1Pastermaster
+Username for 'https://github.com': ceoconne
+Password for 'https://ceoconne@github.com': 
+error: The requested URL returned error: 403 Forbidden while accessing https://github.com/ceoconne/myproject.git/info/refs
+fatal: HTTP request failed
+]12;red]0;8:32 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 168, C: 27
+~/MyProject
+[0;39m$(B[m git push origin masterMasterReadme[C[Cmaster[K[C[Cq[Kgit status -s[C[C[C[C[C[Cremote -vadd origin https://github.com/ceoconne/myproject.git[C[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.gitM.gity.git-.gitP.gitr.gito.gitj.gite.gitc.gitt.git[C1 https://github.com/ceoconne/My-Project.git[1P https://github.com/ceoconne/My-Project.git2 https://github.com/ceoconne/My-Project.git
+]12;red]0;8:33 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 169, C: 28
+~/MyProject
+[0;39m$(B[m git remote add origin2 https://github.com/ceoconne/My-Project.git[C[C[C[C[C[Cpush origin master[KMasterReadme[CMastermaster2 master
+Username for 'https://github.com': ceoconne
+Password for 'https://ceoconne@github.com': 
+To https://github.com/ceoconne/My-Project.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ceoconne/My-Project.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]12;red]0;8:34 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 170, C: 29
+~/MyProject
+[0;39m$(B[m [K[0;39m$(B[m [K[0;39m$(B[m [K[0;39m$(B[m [K[0;39m$(B[m [K[0;39m$(B[m git push origin2 master[C[C[C[C[C[Cremote add origin2 https://github.com/ceoconne/My-Project.git[C[C[C[C[C[Cpush origin2 master[K[C[C[C[C[C[Cremote add origin2 https://github.com/ceoconne/My-Project.git[C[C[C[C[C[Cpush origin master[KMasterReadme[C2 Readme
+Username for 'https://github.com': ceoconne
+Password for 'https://ceoconne@github.com': 
+error: src refspec Readme does not match any.
+error: failed to push some refs to 'https://github.com/ceoconne/My-Project.git'
+]12;red]0;8:36 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 171, C: 30
+~/MyProject
+[0;39m$(B[m git push origin2 Readme[K[K[K[K[K[Klogfile.txt
+Username for 'https://github.com': ceoconne
+Password for 'https://ceoconne@github.com': 
+fatal: Authentication failed
+]12;red]0;8:36 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 172, C: 31
+~/MyProject
+[0;39m$(B[m git push origin2 logfile.txt
+Username for 'https://github.com': ceoconne
+Password for 'https://ceoconne@github.com': 
+error: src refspec logfile.txt does not match any.
+error: failed to push some refs to 'https://github.com/ceoconne/My-Project.git'
+]12;red]0;8:36 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 172, C: 32
+~/MyProject
+[0;39m$(B[m 
+]12;red]0;8:44 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 172, C: 32
+~/MyProject
+[0;39m$(B[m hjkkj[K[K[K[K[Kfd[K[Kfd[K[Klpr
+The program 'lpr' can be found in the following packages:
+ * cups-bsd
+ * gnuspool
+ * lpr
+ * lprng
+Try: sudo apt-get install <selected package>
+]12;red]0;8:52 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 173, C: 33
+~/MyProject
+[0;39m$(B[m 
