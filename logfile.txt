@@ -1,0 +1,110 @@
+Script started on Tue 21 Jan 2014 07:54:14 AM EST
+
+ 07:54:14 up  3:53,  2 users,  load average: 0.16, 0.09, 0.06
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+temoa    tty7     :0               Mon11   20:03m  1:30   0.87s /usr/bi
+temoa    pts/0    :0               07:36    0.00s  0.42s  0.00s script
+]12;red]0;7:54 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 144, C: 1
+~/MyProject
+[0;39m$(B[m git status -s
+?? Readme
+?? logfile.txt
+]12;red]0;7:54 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 145, C: 2
+~/MyProject
+[0;39m$(B[m git add Readme
+]12;red]0;7:54 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 146, C: 3
+~/MyProject
+[0;39m$(B[m git add Readme[C[C[C[C[C[C[1Pstatus -s
+A  Readme
+?? logfile.txt
+]12;red]0;7:54 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 147, C: 4
+~/MyProject
+[0;39m$(B[m git diff
+[?1h=[K[?1l>]12;red]0;8:03 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 148, C: 5
+~/MyProject
+[0;39m$(B[m git diff --ch[Kached
+[?1h=diff --git a/Readme b/Readme[m
+new file mode 100644[m
+index 0000000..e69de29[m
+[K[?1l>]12;red]0;8:05 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 149, C: 6
+~/MyProject
+[0;39m$(B[m git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   Readme
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	logfile.txt
+]12;red]0;8:07 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 150, C: 7
+~/MyProject
+[0;39m$(B[m s[Kgit status -s
+A  Readme
+?? logfile.txt
+]12;red]0;8:07 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 151, C: 8
+~/MyProject
+[0;39m$(B[m git congif[K[K[Kfig --global user.na,e[K[Kme 'Charle[Kie O'Connell'
+[0;31m>(B[m 
+[0;31m>(B[m git config --global user.name 'Charlie O'Connell'
+[A[C[C[C[C[C[Cstatus -s[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.name 'Charlie O'Connell'
+[A[C[C[K
+[K[A[C[Cgit config --global user.name 'Charlie O'Connell'
+[A[C[C[C[C[C[Cstatus -s[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kdiff --cached[K --cached[C[C[C[C[C[C[7Pstatus -s[C[C[C[C[C[Cconfig --global user.name 'Charlie O'Connell'
+[A[C[C[K
+[K[A[C[C
+[0;31m>(B[m git config --global user.name 'Charlie O'Connell'
+
+[A
+]12;red]12;red]12;red]0;8:14 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 152, C: 9
+~/MyProject
+[0;39m$(B[m git config --global user.name 'Charlie O'Connell'
+
+
+git config --global user.name 'Charlie O'Connell'[A[A[A[C[C[K
+[K
+[K
+[K[A[A[A[C[Cgit in[K[Kconfig --glon[Kbal user.email ceoconne@ncsu.edu
+]12;red]0;8:14 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 153, C: 10
+~/MyProject
+[0;39m$(B[m git status -s
+A  Readme
+?? logfile.txt
+]12;red]0;8:15 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 154, C: 11
+~/MyProject
+[0;39m$(B[m git commit -m 'my changes'
+[master (root-commit) 8ba558b] my changes
+ 0 files changed
+ create mode 100644 Readme
+]12;red]0;8:15 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 155, C: 12
+~/MyProject
+[0;39m$(B[m git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	logfile.txt
+nothing added to commit but untracked files present (use "git add" to track)
+]12;red]0;8:15 temoa@VCooprOnLubuntu:MyProject
+temoa[0;39m@VCooprOnLubuntu , J: 0, H: 156, C: 13
+~/MyProject
+[0;39m$(B[m git add logfule[K[K[Kile.txt
